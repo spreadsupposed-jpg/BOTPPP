@@ -1,0 +1,14 @@
+{
+  "name": "limt-trading-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "telegraf": "^4.16.3"
+  }
+}
