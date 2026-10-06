@@ -1,4 +1,4 @@
-name = "limt-trading-backend"
+name = "WORKER-NAME"
 main = "worker.js"
 compatibility_date = "2025-01-01"
 
