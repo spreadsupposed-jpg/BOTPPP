@@ -2,10 +2,6 @@ name = "limt-trading-backend"
 main = "worker.js"
 compatibility_date = "2025-01-01"
 
-[[durable_objects.bindings]]
-name = "BRIDGE"
-class_name = "Bridge"
-
-[[migrations]]
-tag = "v1"
-new_sqlite_classes = ["Bridge"]
+[[kv_namespaces]]
+binding = "BRIDGE"
+id = "07ad2f021b484fc9952b8a2abdc5d04f"
